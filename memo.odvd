@@ -19,15 +19,13 @@ message memo.raw.Raw [id = 10000] {
 }
 
 message memo.raw.NMEA0183 [id = 10001] {
-  string sentence [id = 1];
+  string data [id = 1];
 }
 
 message memo.raw.NMEA2000 [id = 10002] {
-  string header [id = 1];
-  string data [id = 2];
+  string data [id = 1];
 }
 
 message memo.raw.LWE450 [id = 10003] {
-  string header [id = 1];
-  string payload [id = 2];
+  string data [id = 1];
 }
