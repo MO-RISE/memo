@@ -29,3 +29,7 @@ message memo.raw.NMEA2000 [id = 10002] {
 message memo.raw.LWE450 [id = 10003] {
   string data [id = 1];
 }
+
+message memo.raw.Brefv [id = 10004] {
+  string data [id = 1];
+}
